@@ -11,7 +11,7 @@ public class TestImplementation {
 
     @BeforeClass
     public static void setupWebdriverChromeDriver() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/chromedriver.exe");
     }
 
     @Before
